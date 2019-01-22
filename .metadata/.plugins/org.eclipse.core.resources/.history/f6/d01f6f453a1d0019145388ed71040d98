@@ -1,0 +1,14 @@
+package javaPrograms;
+
+public class MAIN {
+
+	public static void main(String[] args)
+	{
+		
+		Parent p=new Parent();
+		p.A();
+		p.A(1);
+		p.B();
+	}
+
+}

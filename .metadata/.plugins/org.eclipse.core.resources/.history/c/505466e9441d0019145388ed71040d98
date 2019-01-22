@@ -1,0 +1,26 @@
+package programs;
+
+public class SecondLargestNumber {
+
+	public static void main(String[] args) 
+	{
+		int numbers[]= {0,3,7,4,18,1,9};
+		int largest=numbers[0];
+		int seclargest=numbers[0];
+		for(int i=0;i<numbers.length;i++)
+		{
+			if(numbers[i]>largest)
+			{
+				seclargest=largest;
+				largest=numbers[i];
+				
+			}
+			else if(numbers[i]>seclargest)
+			{
+				seclargest=numbers[i];
+			}
+		}
+System.out.println("Second largest is::"+seclargest);
+	}
+
+}

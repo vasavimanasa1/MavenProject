@@ -1,0 +1,12 @@
+package programs;
+
+public class RemoveJunk {
+
+	public static void main(String[] args)
+	{
+		String s1="M^a$N#$%asa";
+		s1.replaceAll("[^a-zA-Z0-9]","");
+	System.out.println(s1);
+	}
+
+}

@@ -1,0 +1,32 @@
+package javaPrograms;
+
+public class MAIN {
+
+	public static void main(String[] args)
+	{
+		
+		Parent p=new Parent();
+		p.A();
+		p.A(1);
+		p.B();
+		
+		Child1 c1=new Child1();
+		c1.A();
+		c1.A(2);
+		c1.D();
+		c1.B();
+		
+		System.out.println("Parent through Child");
+		
+		Parent pc=new Child1();
+		pc.A();
+		pc.A(3);
+		pc.B();
+		pc.M();
+		
+		
+		
+		
+	}
+
+}

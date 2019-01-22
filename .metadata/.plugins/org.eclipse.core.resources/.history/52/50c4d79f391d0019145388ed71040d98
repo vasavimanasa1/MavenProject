@@ -1,0 +1,14 @@
+package javaPrograms;
+
+public class Child1 
+{
+	public void A()
+	{
+		System.out.println("Child A");
+	}
+	public void D()
+	{
+		System.out.println("Child D");
+	}
+
+}

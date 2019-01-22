@@ -1,0 +1,10 @@
+package com.crm.qa.testcases;
+
+import org.testng.annotations.BeforeMethod;
+
+public class FooterLinks 
+{
+	
+	
+
+}

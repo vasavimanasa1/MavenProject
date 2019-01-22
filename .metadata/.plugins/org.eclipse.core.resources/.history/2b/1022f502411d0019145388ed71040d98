@@ -1,0 +1,13 @@
+package javaPrograms;
+
+public class Adding2Strings {
+
+	public static void main(String[] args) {
+		String s1="manasa";
+		String s2="Krishna";
+		System.out.println(s1+s2);
+		 int theNumber = 42;
+		 
+	}
+
+}

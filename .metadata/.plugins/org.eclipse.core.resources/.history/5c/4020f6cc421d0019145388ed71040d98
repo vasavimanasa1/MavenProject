@@ -1,0 +1,12 @@
+package programs;
+
+public class SecondLargestNumber {
+
+	public static void main(String[] args) 
+	{
+		int numbers[]= {0,3,7,4,8,1,9};
+		
+
+	}
+
+}
